@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="286" viewBox="0 0 286 286">
+    <g id="Circle_5" data-name="Circle 5" transform="translate(-1081 -3369)">
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1081 3369)" fill="#3dd1b9" stroke="#707070" stroke-width="1">
+            <circle cx="143" cy="143" r="143" stroke="none"/>
+            <circle cx="143" cy="143" r="142.5" fill="none"/>
+        </g>
+        <text id="CSS" transform="translate(1199 3519)" fill="#fff" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">CSS</tspan></text>
+    </g>
+</svg>
