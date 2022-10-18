@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    :root{
+        --dark-gray-color: #292D38; 
+        --gray-color: #30343F;
+        --teal-color: #3DD1B9;
+        --purple-color: #B842B8;
+    }
+
+    /* Navbar */
+    .nav-container{
+        width: 100vw;
+    }
+    
+    header{
+        background: var(--dark-gray-color);
+        display: flex;
+        justify-content: center;
+        padding: 2em;
+    }
+    
+    header a{
+        color: var(--teal-color);
+    }
+
+    .logo{
+        font-weight: bold;
+    }
+
+    /* Hidden elements */
+
+    header nav{
+        display: none;
+    }
+    
+    .social-header{
+        display: none;
+    }
+    
+    .hero-design{
+        display: none;
+    }
+    
+    .featured-art{
+        display: none;
+    }
+    
+    .contact-art{
+        display: none;
+    }
+}
+
+
+

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/desktop.css"> -->
 </head>
 <body>
     <!-- Navigatie balk -->
@@ -13,7 +15,6 @@
         <!-- Main navigatie -->
         <header>
             <a href="index.html" class="logo">Tristan de Muijnck</a>
-
             <nav>
                 <ul>
                     <li><a href="#">Projecten</a></li>
@@ -36,9 +37,17 @@
     <div class="hero">
         <!-- Naam, heading en call to action -->
         <div class="content">
-            <p>Tristan de Muijnck</p>
-            <h1>Frontend Design & Development</h1>
-            <button>Mijn Projecten</button>
+            <p class="hero-title">Tristan de Muijnck</p>
+            <h1>Frontend <br>Design & <br>Development</h1>
+            <button class="hero-btn">Mijn Projecten <img src="./assets/arrow-right.svg" alt="Arrow-right"></button>
+            <!-- Arrow down -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="arrow_down" width="33.591" height="42.606" viewBox="0 0 33.591 42.606">
+                <g id="Down_arrow" data-name="Down arrow" transform="translate(-786.705 -903.5)">
+                    <line id="Line_1" data-name="Line 1" y2="42" transform="translate(803.5 903.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                    <line id="Line_2" data-name="Line 2" y1="21" x2="16" transform="translate(803.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                    <line id="Line_3" data-name="Line 3" x1="16" y1="21" transform="translate(787.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                </g>
+            </svg>  
         </div>
         <!-- Hero art svg -->
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="660" height="330" viewBox="0 0 660 330">
@@ -58,15 +67,7 @@
                 <path id="Polygon_13" data-name="Polygon 13" d="M55,0l55,110H0Z" transform="translate(1519 378) rotate(-90)" fill="#30343f"/>
                 <path id="Polygon_14" data-name="Polygon 14" d="M55,0l55,110H0Z" transform="translate(1739 268) rotate(90)" fill="#b842b8"/>
             </g>
-        </svg>
-        <!-- Arrow down -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="arrow_down" width="33.591" height="42.606" viewBox="0 0 33.591 42.606">
-            <g id="Down_arrow" data-name="Down arrow" transform="translate(-786.705 -903.5)">
-                <line id="Line_1" data-name="Line 1" y2="42" transform="translate(803.5 903.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-                <line id="Line_2" data-name="Line 2" y1="21" x2="16" transform="translate(803.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-                <line id="Line_3" data-name="Line 3" x1="16" y1="21" transform="translate(787.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-            </g>
-        </svg>    
+        </svg>  
     </div>
 
     <!-- Featured project -->

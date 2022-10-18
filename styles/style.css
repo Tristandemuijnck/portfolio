@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+:root{
+    --dark-gray-color: #292D38; 
+    --gray-color: #30343F;
+    --teal-color: #3DD1B9;
+    --purple-color: #B842B8;
+}
+
+body{
+    margin: 0;
+    font-family: Poppins, Arial;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/* Navigatie */
+.nav-container{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+header{
+    display: flex;
+    background-color: var(--dark-gray-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 8em;
+}
+
+.logo{
+    color: var(--teal-color);
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    padding: 0 1em;
+    color: var(--teal-color);
+}
+
+.social-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 8em;
+    background-color: var(--teal-color);
+}
+
+.social-header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 7em;
+    float: right;
+}
+
+.social-header ul img{
+    width: 20px;
+}
+
+/* Hero */
+.hero{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0;
+    background-color: var(--teal-color);
+}
+
+.content{
+    background: var(--gray-color);
+    text-align: left;
+    padding-left: 8em;
+    padding-top: 14em;
+}
+
+.hero-title{
+    color: var(--teal-color);
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.content h1{
+    color: white;
+    font-weight: 500;
+    font-size: 5em;
+    line-height: 1em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.hero-btn{
+    background-color: var(--gray-color);
+    border: var(--teal-color) solid 1px;
+    color: var(--teal-color);
+    padding: 0.6em 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.hero-design{
+    display: none;
+}

@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+    :root{
+        --dark-gray-color: #292D38; 
+        --gray-color: #30343F;
+        --teal-color: #3DD1B9;
+        --purple-color: #B842B8;
+    }
+
+    
+}
