@@ -5,49 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <!-- <link rel="stylesheet" href="./styles/mobile.css">
-    <link rel="stylesheet" href="./styles/desktop.css"> -->
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <!-- <link rel="stylesheet" href="./styles/desktop.css"> -->
 </head>
 <body>
     <!-- Navigatie balk -->
     <div class="nav-container">
         <!-- Main navigatie -->
         <header>
-            <a href="index.html" class="logo">Tristan de Muijnck</a>
+            <a href="index.html" class="logo">
+                <img class="logo-img" src="./assets/logo.svg" alt="Logo">
+                <p class="logo-title">Tristan de Muijnck</p>
+            </a>
             <nav>
                 <ul>
-                    <li><a href="#">Projecten</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#projecten">Projecten</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Social media links -->
         <div class="social-header">
             <ul>
-                <li><a href="#"><img class="social-logo" src="./assets/linkedin.png" alt="Linkedin"></a></li>
-                <li><a href="#"><img class="social-logo" src="./assets/github.png" alt="Github"></a></li>
-                <li><a href="#"><img class="social-logo" src="./assets/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/tristan-de-muijnck-50a0b1181/"><img class="social-logo" src="./assets/linkedin.png" alt="Linkedin"></a></li>
+                <li><a href="https://github.com/Tristandemuijnck"><img class="social-logo" src="./assets/github.png" alt="Github"></a></li>
+                <li><a href="https://www.instagram.com/tristandemuijnck/"><img class="social-logo" src="./assets/instagram.png" alt="Instagram"></a></li>
             </ul>
         </div>
     </div>
 
     <!-- Hero content -->
-    <div class="hero">
+    <section id="hero" class="hero">
         <!-- Naam, heading en call to action -->
         <div class="content">
             <p class="hero-title">Tristan de Muijnck</p>
             <h1>Frontend <br>Design & <br>Development</h1>
-            <button class="hero-btn">Mijn Projecten <img src="./assets/arrow-right.svg" alt="Arrow-right"></button>
+            <button class="hero-btn">
+                <a href="#projecten" class="hero-btn-text">Mijn Projecten </a>
+                <img class="arrow-right-btn"  src="./assets/arrow-right.svg" alt="Arrow-right">
+            </button>
             <!-- Arrow down -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="arrow_down" width="33.591" height="42.606" viewBox="0 0 33.591 42.606">
-                <g id="Down_arrow" data-name="Down arrow" transform="translate(-786.705 -903.5)">
-                    <line id="Line_1" data-name="Line 1" y2="42" transform="translate(803.5 903.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-                    <line id="Line_2" data-name="Line 2" y1="21" x2="16" transform="translate(803.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-                    <line id="Line_3" data-name="Line 3" x1="16" y1="21" transform="translate(787.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
-                </g>
-            </svg>  
+            <div class="arrow-down-container">
+                <a href="#featured">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" width="33.591" height="42.606" viewBox="0 0 33.591 42.606">
+                        <g id="Down_arrow" data-name="Down arrow" transform="translate(-786.705 -903.5)">
+                            <line id="Line_1" data-name="Line 1" y2="42" transform="translate(803.5 903.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                            <line id="Line_2" data-name="Line 2" y1="21" x2="16" transform="translate(803.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                            <line id="Line_3" data-name="Line 3" x1="16" y1="21" transform="translate(787.5 924.5)" fill="none" stroke="#3dd1b9" stroke-width="2"/>
+                        </g>
+                    </svg>
+                </a>
+            </div>
         </div>
         <!-- Hero art svg -->
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="660" height="330" viewBox="0 0 660 330">
@@ -67,11 +77,11 @@
                 <path id="Polygon_13" data-name="Polygon 13" d="M55,0l55,110H0Z" transform="translate(1519 378) rotate(-90)" fill="#30343f"/>
                 <path id="Polygon_14" data-name="Polygon 14" d="M55,0l55,110H0Z" transform="translate(1739 268) rotate(90)" fill="#b842b8"/>
             </g>
-        </svg>  
-    </div>
+        </svg> 
+    </section>
 
     <!-- Featured project -->
-    <div class="featured-project">
+    <section id="featured" class="featured">
         <!-- Featured Art -->
         <svg xmlns="http://www.w3.org/2000/svg" class="featured-art" width="496" height="381" viewBox="0 0 496 381">
             <g id="Featured_Art" data-name="Featured Art" transform="translate(37 -1129)">
@@ -97,143 +107,139 @@
 
         <!-- Featured side image -->
         <div class="featured-image-container">
-            <img src="./assets/toolgankelijk.png" alt="Toolgankelijkheid">
+            <img class="featured-img" src="./assets/toolgankelijk.png" alt="Toolgankelijkheid">
         </div>
-    </div>
+    </section>
 
     <!-- Projecten -->
-    <div class="projecten">
+    <section id="projecten" class="projecten">
         <!-- Projecten content -->
         <div class="projecten-content">
             <h2>Projecten</h2>
 
             <!-- Project cards -->
-            <div class="project-card">
-                <div class="card-title">Profile card</div>
-                <div class="card-img">
-                    <img src="" alt="Profile card preview">
-                </div>
-                <div class="project-shortcuts">
-                    <div class="github-link">
-                        <a href="#"><img src="" alt="Github link"></a>
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="card-title">Profile card</div>
+                    <p class="card-desc">Het maken van een eigen visitekaartje in HTML, CSS en JavaScript</p>
+                    <div class="project-shortcuts">
+                        <div class="github-link">
+                            <a href="https://github.com/Tristandemuijnck/profile-card-tristan"><img class="github-svg" src="./assets/github.svg" alt="Github link"></a>
+                        </div>
+                        <div class="shortcut-link">
+                            <a href="https://tristan.student.fdnd.nl/"><img class="exlink-svg" src="./assets/ex-link.svg" alt="Shortcut link"></a>
+                        </div>
                     </div>
-                    <div class="shortcut-link">
-                        <a href="#"><img src="" alt="Shortcut link"></a>
-                    </div>
                 </div>
-            </div>
 
-            <div class="project-card">
-                <div class="card-title">Squad page</div>
-                <div class="card-img">
-                    <img src="" alt="Squad page preview">
-                </div>
-                <div class="project-shortcuts">
-                    <div class="github-link">
-                        <a href="#"><img src="" alt="Github link"></a>
+                <div class="project-card">
+                    <div class="card-title">Squad page</div>
+                    <p class="card-desc">Het maken van een team squadpagina in HTML, CSS en JavaScript</p>
+                    <div class="project-shortcuts">
+                        <div class="github-link">
+                            <a href="https://github.com/Tristandemuijnck/Codeforce-squad-page"><img class="github-svg" src="./assets/github.svg" alt="Github link"></a>
+                        </div>
+                        <div class="shortcut-link">
+                            <a href="https://codeforce.student.fdnd.nl/"><img class="exlink-svg" src="./assets/ex-link.svg" alt="Shortcut link"></a>
+                        </div>
                     </div>
-                    <div class="shortcut-link">
-                        <a href="#"><img src="" alt="Shortcut link"></a>
-                    </div>
                 </div>
-            </div>
 
-            <div class="project-card">
-                <div class="card-title">Toolgankelijk</div>
-                <div class="card-img">
-                    <img src="" alt="Toolgankelijk preview">
-                </div>
-                <div class="project-shortcuts">
-                    <div class="github-link">
-                        <a href="#"><img src="" alt="Github link"></a>
-                    </div>
-                    <div class="shortcut-link">
-                        <a href="#"><img src="" alt="Shortcut link"></a>
+                <div class="project-card">
+                    <div class="card-title">Toolgankelijk</div>
+                    <p class="card-desc">Een overzicht van verbeteringen op het gebied van toegankelijkheid op een website of app.</p>
+                    <div class="project-shortcuts">
+                        <div class="github-link">
+                            <a href="https://github.com/Tristandemuijnck/the-client-case-VA"><img class="github-svg" src="./assets/github.svg" alt="Github link"></a>
+                        </div>
+                        <div class="shortcut-link">
+                            <a href="http://tristanva.student.fdnd.nl/"><img class="exlink-svg" src="./assets/ex-link.svg" alt="Shortcut link"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Skills -->
-    <div class="skills">
+    <section id="skills" class="skills">
         <!-- Skills content -->
         <div class="skills-content">
             <h2>Skills</h2>
 
             <!-- Skills cirkels -->
+            <div class="cirkels">
+                <!-- Cirkel html 1 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle1" width="196" height="196" viewBox="0 0 196 196">
+                    <g id="Circle_1" data-name="Circle 1" transform="translate(-315 -3551)">
+                        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(315 3551)" fill="#b842b8" stroke="#707070" stroke-width="1">
+                            <circle cx="98" cy="98" r="98" stroke="none"/>
+                            <circle cx="98" cy="98" r="97.5" fill="none"/>
+                        </g>
+                        <text id="HTML" transform="translate(381 3658)" fill="#3dd1b9" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">HTML</tspan></text>
+                    </g>
+                </svg>
 
-            <!-- Cirkel 1 -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="circle1" width="196" height="196" viewBox="0 0 196 196">
-                <g id="Circle_1" data-name="Circle 1" transform="translate(-315 -3551)">
-                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(315 3551)" fill="#b842b8" stroke="#707070" stroke-width="1">
-                        <circle cx="98" cy="98" r="98" stroke="none"/>
-                        <circle cx="98" cy="98" r="97.5" fill="none"/>
+                <!-- Cirkel javascript 2 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle2" width="286" height="286" viewBox="0 0 286 286">
+                    <g id="Circle_2" data-name="Circle 2" transform="translate(-392 -3547)">
+                        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(392 3547)" fill="#3dd1b9" stroke="#707070" stroke-width="1">
+                            <circle cx="143" cy="143" r="143" stroke="none"/>
+                            <circle cx="143" cy="143" r="142.5" fill="none"/>
+                        </g>
+                        <text id="JavaScript" transform="translate(468 3699)" fill="#fff" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">JavaScript</tspan></text>
                     </g>
-                    <text id="HTML" transform="translate(381 3658)" fill="#3dd1b9" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">HTML</tspan></text>
-                </g>
-            </svg>
+                </svg>
+                
+                <!-- Cirkel python 4 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle4" width="240" height="240" viewBox="0 0 240 240">
+                    <g id="Circle_4" data-name="Circle 4" transform="translate(-857 -3607)">
+                        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(857 3607)" fill="#fff" stroke="#707070" stroke-width="1">
+                            <circle cx="120" cy="120" r="120" stroke="none"/>
+                            <circle cx="120" cy="120" r="119.5" fill="none"/>
+                        </g>
+                        <text id="Python" transform="translate(934 3736)" fill="#b842b8" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Python</tspan></text>
+                    </g>
+                </svg>
+                
+                <!-- Cirkel java 6 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle6" width="286" height="286" viewBox="0 0 286 286">
+                    <g id="Circle_6" data-name="Circle 6" transform="translate(-1453 -3572)">
+                        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(1453 3572)" fill="#b842b8" stroke="#707070" stroke-width="1">
+                            <circle cx="143" cy="143" r="143" stroke="none"/>
+                            <circle cx="143" cy="143" r="142.5" fill="none"/>
+                        </g>
+                        <text id="Java" transform="translate(1565 3724)" fill="#3dd1b9" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Java</tspan></text>
+                    </g>
+                </svg>
 
-            <!-- Cirkel 2 -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="286" height="286" viewBox="0 0 286 286">
-                <g id="Circle_2" data-name="Circle 2" transform="translate(-392 -3547)">
-                    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(392 3547)" fill="#3dd1b9" stroke="#707070" stroke-width="1">
-                        <circle cx="143" cy="143" r="143" stroke="none"/>
-                        <circle cx="143" cy="143" r="142.5" fill="none"/>
+                <!-- Cirkel css 5 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle5" width="286" height="286" viewBox="0 0 286 286">
+                    <g id="Circle_5" data-name="Circle 5" transform="translate(-1081 -3369)">
+                        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1081 3369)" fill="#3dd1b9" stroke="#707070" stroke-width="1">
+                            <circle cx="143" cy="143" r="143" stroke="none"/>
+                            <circle cx="143" cy="143" r="142.5" fill="none"/>
+                        </g>
+                        <text id="CSS" transform="translate(1199 3519)" fill="#fff" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">CSS</tspan></text>
                     </g>
-                    <text id="JavaScript" transform="translate(468 3699)" fill="#fff" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">JavaScript</tspan></text>
-                </g>
-            </svg>
-            
-            <!-- Cirkel 3 -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170">
-                <g id="Circle_3" data-name="Circle 3" transform="translate(-712 -3425)">
-                    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(712 3425)" fill="#fff" stroke="#707070" stroke-width="1">
-                        <circle cx="85" cy="85" r="85" stroke="none"/>
-                        <circle cx="85" cy="85" r="84.5" fill="none"/>
+                </svg>
+
+                <!-- Cirkel php 3 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="circle3" width="170" height="170" viewBox="0 0 170 170">
+                    <g id="Circle_3" data-name="Circle 3" transform="translate(-712 -3425)">
+                        <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(712 3425)" fill="#fff" stroke="#707070" stroke-width="1">
+                            <circle cx="85" cy="85" r="85" stroke="none"/>
+                            <circle cx="85" cy="85" r="84.5" fill="none"/>
+                        </g>
+                        <text id="PHP" transform="translate(774 3519)" fill="#b842b8" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">PHP</tspan></text>
                     </g>
-                    <text id="PHP" transform="translate(774 3519)" fill="#b842b8" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">PHP</tspan></text>
-                </g>
-            </svg>
-            
-            <!-- Cirkel 4 -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
-                <g id="Circle_4" data-name="Circle 4" transform="translate(-857 -3607)">
-                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(857 3607)" fill="#fff" stroke="#707070" stroke-width="1">
-                        <circle cx="120" cy="120" r="120" stroke="none"/>
-                        <circle cx="120" cy="120" r="119.5" fill="none"/>
-                    </g>
-                    <text id="Python" transform="translate(934 3736)" fill="#b842b8" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Python</tspan></text>
-                </g>
-            </svg>
-            
-            <!-- Cirkel 5 -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="286" height="286" viewBox="0 0 286 286">
-                <g id="Circle_5" data-name="Circle 5" transform="translate(-1081 -3369)">
-                    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1081 3369)" fill="#3dd1b9" stroke="#707070" stroke-width="1">
-                        <circle cx="143" cy="143" r="143" stroke="none"/>
-                        <circle cx="143" cy="143" r="142.5" fill="none"/>
-                    </g>
-                    <text id="CSS" transform="translate(1199 3519)" fill="#fff" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">CSS</tspan></text>
-                </g>
-            </svg>
-            
-            <!-- Cirkel 6 -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="286" height="286" viewBox="0 0 286 286">
-                <g id="Circle_6" data-name="Circle 6" transform="translate(-1453 -3572)">
-                    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(1453 3572)" fill="#b842b8" stroke="#707070" stroke-width="1">
-                        <circle cx="143" cy="143" r="143" stroke="none"/>
-                        <circle cx="143" cy="143" r="142.5" fill="none"/>
-                    </g>
-                    <text id="Java" transform="translate(1565 3724)" fill="#3dd1b9" font-size="25" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Java</tspan></text>
-                </g>
-            </svg>
-            
+                </svg>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Contact -->
-    <div class="contact">
+    <section id="contact" class="contact">
         <!-- Contact Art -->
         <svg xmlns="http://www.w3.org/2000/svg" class="contact-art" width="390" height="494" viewBox="0 0 390 494">
             <g id="Contact_art" data-name="Contact art" transform="translate(-765 -4073)">
@@ -252,14 +258,17 @@
 
         <!-- Contact content -->
         <div class="contact-content">
-            <p class="contact-heading">Samen werken aan jouw volgende project?</p>
-            <button class="contact-btn">Contact</button>
+            <div class="contact-text">
+                <p class="contact-heading">Samen werken aan jouw volgende project?</p>
+                <button class="contact-btn">Contact</button>
+            </div>
             <div class="contact-socials">
-                <a href="#"><img src="./assets/github.png" alt="Github"></a>
-                <a href="#"><img src="./assets/linkedin.png" alt="Linkedin"></a>
-                <a href="#"><img src="./assets/instagram.png" alt="Instagram"></a>
+                <a href="https://github.com/Tristandemuijnck"><img class="contact-logo" src="./assets/github.svg" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/tristan-de-muijnck-50a0b1181/"><img class="contact-logo" src="./assets/linkedin.svg" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/tristandemuijnck/"><img class="contact-logo" src="./assets/instagram.svg" alt="Instagram"></a>
             </div>
         </div>
-    </div>
+        
+    </section>
 </body>
 </html>

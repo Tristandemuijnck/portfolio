@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="111.694" viewBox="0 0 111 111.694">
+    <g id="Logo" transform="translate(-785 -154.653)">
+        <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(798 168)" fill="#292d38" stroke="#3dd1b9" stroke-width="2">
+            <circle cx="42.5" cy="42.5" r="42.5" stroke="none"/>
+            <circle cx="42.5" cy="42.5" r="41.5" fill="none"/>
+        </g>
+        <text id="TM" transform="translate(822 219)" fill="#3dd1b9" font-size="25" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.03em"><tspan x="0" y="0">TM</tspan></text>
+        <g id="Circle_points_logo" data-name="Circle points logo">
+            <path id="Polygon_40" data-name="Polygon 40" d="M10,0,20,15H0Z" transform="translate(830.5 154.653)" fill="#3dd1b9"/>
+            <path id="Polygon_41" data-name="Polygon 41" d="M10,0,20,15H0Z" transform="translate(850.5 266.347) rotate(180)" fill="#3dd1b9"/>
+            <path id="Polygon_42" data-name="Polygon 42" d="M10,0,20,15H0Z" transform="translate(896 200.5) rotate(90)" fill="#3dd1b9"/>
+            <path id="Polygon_43" data-name="Polygon 43" d="M10,0,20,15H0Z" transform="translate(785 221.5) rotate(-90)" fill="#3dd1b9"/>
+            <path id="Polygon_44" data-name="Polygon 44" d="M10,0,20,15H0Z" transform="translate(858.476 190.278) rotate(-154)" fill="#3dd1b9"/>
+            <path id="Polygon_45" data-name="Polygon 45" d="M10,0,20,15H0Z" transform="translate(821.331 231.129) rotate(25)" fill="#3dd1b9"/>
+            <path id="Polygon_46" data-name="Polygon 46" d="M10,0,20,15H0Z" transform="translate(839.457 181.51) rotate(154)" fill="#3dd1b9"/>
+            <path id="Polygon_47" data-name="Polygon 47" d="M10,0,20,15H0Z" transform="translate(841.866 239.811) rotate(-27)" fill="#3dd1b9"/>
+            <path id="Polygon_48" data-name="Polygon 48" d="M10,0,20,15H0Z" transform="translate(868.681 210.5) rotate(-113)" fill="#3dd1b9"/>
+            <path id="Polygon_49" data-name="Polygon 49" d="M10,0,20,15H0Z" transform="translate(860.044 229.32) rotate(-63)" fill="#3dd1b9"/>
+            <path id="Polygon_50" data-name="Polygon 50" d="M10,0,20,15H0Z" transform="translate(812.05 211.629) rotate(66)" fill="#3dd1b9"/>
+            <path id="Polygon_51" data-name="Polygon 51" d="M10,0,20,15H0Z" transform="matrix(-0.326, 0.946, -0.946, -0.326, 819.509, 191.254)" fill="#3dd1b9"/>
+        </g>
+        <g id="Circle_points_logo_2" data-name="Circle points logo 2" transform="translate(395.023 -532.669) rotate(45)">
+            <path id="Polygon_40-2" data-name="Polygon 40" d="M10,0,20,15H0Z" transform="translate(830.5 154.653)" fill="#3dd1b9"/>
+            <path id="Polygon_41-2" data-name="Polygon 41" d="M10,0,20,15H0Z" transform="translate(850.5 266.347) rotate(180)" fill="#3dd1b9"/>
+            <path id="Polygon_42-2" data-name="Polygon 42" d="M10,0,20,15H0Z" transform="translate(896 200.5) rotate(90)" fill="#3dd1b9"/>
+            <path id="Polygon_43-2" data-name="Polygon 43" d="M10,0,20,15H0Z" transform="translate(785 221.5) rotate(-90)" fill="#3dd1b9"/>
+        </g>
+        <g id="Circle_points_logo_3" data-name="Circle points logo 3" transform="translate(395.023 -532.669) rotate(45)">
+            <path id="Polygon_40-3" data-name="Polygon 40" d="M10,0,20,15H0Z" transform="translate(830.5 154.653)" fill="#3dd1b9"/>
+            <path id="Polygon_41-3" data-name="Polygon 41" d="M10,0,20,15H0Z" transform="translate(850.5 266.347) rotate(180)" fill="#3dd1b9"/>
+            <path id="Polygon_42-3" data-name="Polygon 42" d="M10,0,20,15H0Z" transform="translate(896 200.5) rotate(90)" fill="#3dd1b9"/>
+            <path id="Polygon_43-3" data-name="Polygon 43" d="M10,0,20,15H0Z" transform="translate(785 221.5) rotate(-90)" fill="#3dd1b9"/>
+        </g>
+    </g>
+</svg>
